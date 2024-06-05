@@ -1,0 +1,582 @@
+/*
+	light #ffc200
+	original #FB4001
+	dark #246bb9
+	*/
+	/*
+	input[type="text"]{
+		text-transform: uppercase;
+	}
+	*/
+	/*
+	specific container configuration from globalsupply
+	#container{
+		background:#1A7EFF;
+		color: #fff;
+		font-family:helvetica,verdana,'lucida grande',arial,sans-serif;
+		font-size:14px;
+		margin: 0 auto;
+		width:1600px;
+	}
+	*/
+  h1 {
+    font-size:36px;
+  }
+	
+	#container form .container-fluid{
+		width:100%;
+	}
+
+	#container form div.container div,
+	#container form div.container-fluid div{
+		padding:0;
+    clear:none;
+	}
+  
+  #container form div.container div.rows,
+	#container form div.container-fluid div.rows{
+		clear:both;
+	}
+	
+	#container form div.container p.clearleft,
+	#container form div.container-fluid p.clearleft,
+	#container form div.container div.clearleft,
+	#container form div.container-fluid div.clearleft {
+		clear:left !important;
+	}
+	
+	#container form div.container div.clearright,
+	#container form div.container-fluid div.clearright {
+		clear:right !important;
+	}
+	
+	#container form .container div h3,
+	#container form .container-fluid div h3{
+		margin-top:0em;
+	}
+	
+	#container .container label,
+	#container .container-fluid label{
+		width:30%;
+	}
+
+	#container div.container-fluid dl {
+		width:100%;
+	}
+	
+	#container div.container-fluid dl dd {
+		float:left;
+		margin-left:30%;
+		width:50%;
+		
+	}
+	
+	#container .container .labelfirst label,
+	#container .container-fluid .labelfirst label{
+		width:80%;
+	}
+	
+	#container div.labelfirst label{
+		margin-left:0%;
+	}
+	#container div.labelfirst input[type=checkbox]{
+		width:5%;
+	}
+
+	#container div.label50 label{
+		width:50%;
+	}
+	#container div.label50 input{
+		width:50%;
+	}
+	
+	div.useractions {
+		background-color:#00FF00;
+	}
+	
+	.useractions .nav a:hover, .useractions .nav a:focus {
+		background-color: #0e0;
+		border-color: #428bca;
+	}
+	
+	.useractions .nav .open>a, .useractions .nav .open>a:hover, .useractions .nav .open>a:focus {
+		background-color: #0e0;
+		border-color: #428bca;
+	}
+	
+	.useractions .dropdown-menu {
+		background-color: #0e0;
+	}
+	
+	.lightgreen {
+		background-color:#C8FF91 !important;
+	}
+
+	#uno div.modal-dialog label,
+	#uno div.container-fluid label {
+		width:40%;
+	}
+  
+  #uno div.modal-dialog input{
+    width:55%;
+  }
+	
+	#uno input[readonly='readonly']{
+		border:#ffffff 0px;
+	}
+	
+	#uno div.machines div.input label,
+	#uno div.machines div.input input 
+	{
+		width:50%;
+	}
+	#uno div.machines div.input.checkbox input
+	{
+		width:100%;
+	}
+	
+  #container .checkboxleft label{
+		padding-left:10%;
+		width:40%;
+	}
+	#container .checkboxleft input{
+		width:10%;
+	}
+  #container .checkboxleftbig label{
+		padding-left:10%;
+		width:80% !important;
+	}
+	#container .checkboxleftbig input{
+		width:10%;
+	}
+	
+	#uno input.nobox {
+		border:0px;
+		border-color:#FFFFFF;
+	}
+  
+  #uno .nomarginbottom div.input{
+    margin-bottom:0;
+  }
+	
+	#uno .redbg {
+		background-color:#FF0000;
+	}
+	#uno .greenbg {
+		background-color:#00FF00;
+	}
+	#uno .greentext {
+		color:#00FF00;
+	}
+	#uno .darkgreentext {
+		color:#008800;
+	}
+	#uno .yellowbg {
+		background-color:#FFFF00;
+	}
+	
+	span.currency,
+	span.currencyleft
+	{
+		float:left;
+    display:inline;
+	}
+	
+	#uno input.red{
+		color:#ff0000;
+	}
+		
+	
+	#uno .amountright
+	{
+		float:right;
+		text-align:right;
+	}
+  #uno .amountcenter
+	{
+		text-align:center;
+	}
+	
+	#uno .italic {
+		font-style:italic;
+	}
+	
+	#uno .fullwidth{
+		width:100%;
+		border-right:0;
+	}
+
+	#uno .italic{
+		font-style:italic;
+	}
+	
+	.width100{
+    width:100%!important;
+  }
+	
+	#uno div input.narrow{
+		width:30%;
+	}
+	
+	#uno width60 {
+		width:60%;
+	}
+	
+	#uno div.narrow{
+		width:80%;
+	}
+	
+	#uno{
+		background:#ffc200;
+		color: #fff;
+		font-family:helvetica,verdana,'lucida grande',arial,sans-serif;
+		font-size:14px;
+		margin: 0;
+	}
+	
+	#uno label{
+		width:15%;
+		font-weight:bold;
+		vertical-align:top;
+	}
+	
+	#uno .checkbox label{
+		padding-left:0em;
+		width:15%;
+	}
+	
+	#uno input{
+		width:60%;
+	}
+	
+	#uno .checkbox input{
+		padding-left:0em;
+		width:30%;
+		margin-left:0%;
+	}
+	
+	#uno .submit input{
+		width:10em;
+	}
+	
+	#uno .centered{
+		text-align:center;
+	}
+	
+	#uno a.btn-primary{
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+	#uno .bold{
+		font-weight:bold;
+	}
+	
+	#uno .warning{
+		background-color:#ff0000;
+    color:#fff;
+    font-weight:700;
+    font-size:1.4em;
+	}
+  #uno .info{
+		background-color:#ffff00;
+    color:#000;
+    font-weight:700;
+    font-size:1.4em;
+	}
+  
+  #uno .notallowed{
+		background-color:#ffa500;
+    color:#b00;
+    font-weight:700;
+    font-size:1.5em;
+	}
+	
+	#uno .orderdate{
+		width:100px;
+	}
+	
+	#uno div.form,
+	#uno div.view,
+
+	#uno div.orders.view, #uno div.productionRuns.view{
+		position:relative;
+	}
+
+	#uno .righttop {
+		position:absolute;
+		right:0%;
+		top:1.5em;
+		width:20%;
+		background-color:#aaffdd;
+	}
+	
+	#uno .righttop.wide{
+		width:35%;
+	}
+
+	#uno div.righttop dl {
+		width:100%;
+	}
+	#uno div.righttop dt {
+		width:40%;
+		clear:left;
+		display:inline-block;
+	}
+	#uno div.righttop dd {
+		width:40%;
+		display:inline-block;
+		margin:0;
+		clear:right;
+	}
+	
+	#uno .righttop label{
+		width:100%;
+	}
+  #uno .righttop input{
+    width:85%;
+		margin-left:10px;
+	}
+	
+	#uno form#CashReceiptAddForm , #uno form#CashReceiptEditForm  {
+		margin-right:0;
+		width:100%;
+	}
+	#CashReceiptAddForm .righttop, #uno #CashReceiptEditForm .righttop  {
+		width:30%;
+	}
+	
+
+	#uno dt{
+		width:20em;
+	}
+  #uno dd{
+		margin-left:20em;
+	}
+	
+  #uno dl.narrow dt {
+    width:10em;
+  }
+  #uno dl.narrow dd{
+		margin-left:10em;
+	}
+  #uno dl.width100 {
+    width:100%;
+  }
+  #uno div.container-fluid dl.width100 dt {
+    width:50%;
+  }
+  #uno div.container-fluid dl.width100 dd {
+    margin-left:50%;
+    
+  }
+  
+	
+	#uno #headerbar{
+		background:#246bb9;
+	}	
+	#uno #header h1{
+		background:#246bb9;
+		display:inline-block;
+		position:relative;
+	}
+
+	#uno #header h1 a{
+		background:#246bb9;
+	}
+	
+	#uno #headerbar nav{
+		background:#246bb9;		
+		display:inline-block;
+    width:84%;
+    height:100%
+	}
+  
+
+  #uno #headerbar nav:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;  }
+	/*
+  #headerbar ul.main-menu{
+		top:20px;
+		left:100px;
+	}
+	*/
+	.logout{
+		display:inline-block;
+    vertical-align:middle;
+		float:right;
+		margin: 15px 0px;
+	}
+	.print{
+		display:inline-block;
+    vertical-align:middle;
+		float:right;
+		margin: 15px 15px;
+	}
+	
+	#copyright {
+		float:left;
+	}
+	
+	#intersinaptico{
+		position:relative;
+		float:right;
+	}
+	
+	div.home {
+		float:left;
+		width:85%;
+		border-right:1px solid #666;
+		padding:10px 2%;
+	}
+	
+  #uno .smallText {
+    font-size:0.75em!important;
+  }
+  
+	/* save alignment in view pages */
+	dd{
+		margin-top:-1.4em;
+	}
+	/***************************************************************************************************************
+	/** add configuration options ************************************************************
+	/**************************************************************************************************************/
+
+	#configoptions h1 {
+		font-size:2em;
+		font-weight:bold;
+	}
+
+	#configoptions .col-md-4 div {
+		margin-left:5%;
+	}
+
+	#configoptions .col-md-4 div a {
+		font-size:1.2em;
+		text-decoration:none;
+	}
+
+	
+	#inventoryTotals {
+		margin-left:1em;
+		float:left;
+		clear:right;
+		width:20%;
+	}
+	
+	/***************************************************************************************************************
+	/** add order table displaying the ordered products ************************************************************
+	/** in orders/add, the tables should use the whole space of locations index ************************************
+	/**************************************************************************************************************/
+	
+	.orders form {
+		/* width:50%;*/
+		float:left;
+		clear:none;
+	}
+	
+	.orders form  label{
+		display:inline-block;
+		margin-right:5px;
+		width:15%;
+	}
+
+	#printinfo{
+		display:none;
+	}
+	
+	.separator {
+		background-Color:#000;
+	}
+
+	.miniseparator {
+		width:1px;
+	}
+	
+	#uno #sub-menu ul li {
+		float:left;
+		list-style-type:none;
+	}
+	#uno #sub-menu ul li a {
+		font-weight:normal; 
+		text-decoration:none;
+	}
+	#uno #sub-menu ul li.active>a{
+		font-weight:bold;
+		color:black;
+	}
+  
+	img.resize {
+		width:400px; /* you can use % */
+		height: auto;
+	}
+	
+	div, span {
+		font-size:1em;
+	}
+  .extraSmall {
+    font-size:0.6em;
+  }
+	.small {
+		font-size:0.9em;
+	}
+	.big{
+		font-size:1.5em;
+	}
+  
+  
+	.left {
+    text-align:left;
+  }
+	.centered{
+		text-align:center;
+	}
+	.right{
+		text-align:right;
+	}
+	div.right{
+		padding-right:1em;
+	}
+	
+	span {
+		margin-left:0.5em;
+	}
+	.bold{
+		font-weight:bold;
+	}
+	.underline{
+		text-decoration:underline;
+	}
+  .red {
+    color:#f00;
+  }
+  .redBackground{
+    background-color:red!important;
+    color:#fff;
+  }
+  
+  #uno #invoicePrint {
+    font-size:12px;
+  }
+  #uno #invoicePrint span{
+    margin-left:0px;
+  }
+  #uno #invoicePrint table {
+		font-size:100%;
+    margin-bottom:2px;
+	}
+  #uno #invoicePrint table tr th,
+  #uno #invoicePrint table tr td
+  {
+		padding-left:0;
+    padding-right:0;
+    padding-top:2px;
+    padding-bottom:2px;
+	}
+  #uno #invoicePrint table tbody tr,
+  #uno #invoicePrint table tbody tr td{
+		background:none;
+    border-color:#fff;
+	}

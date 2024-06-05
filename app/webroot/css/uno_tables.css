@@ -1,0 +1,141 @@
+  #uno table {
+		font-size:1.2em;
+    width:100%;
+	}
+  table .hidden{
+		display:none;
+	}
+  table.bordered {
+		border-collapse:collapse; 
+	}
+  div.index table{
+		overflow:auto;
+	}
+  
+	tr#accountingRegisterTotals.match
+	{
+		font-weight:bold;
+		background-color:#00ff00 !important;
+	}
+	tr#accountingRegisterTotals.nomatch
+	{
+		font-weight:bold;
+		background-color:#ff0000 !important;
+	}
+	tr.nomatchwarning
+	{
+		background-color:#ffff00 !important;
+	}
+	tr.subaccountheader
+	{
+		font-weight:bold;
+		background-color:#FFDCB5 !important;
+	}
+	tr.subaccountfooter
+	{
+		font-weight:bold;
+		background-color:#FFE387 !important;
+	}
+  
+	#uno tr.topborder {
+		border-top:3px solid black;
+	}
+	
+  #uno th.narrow{
+		width:10%;
+	}
+  
+  #uno td.right{
+		text-align:right;
+	}
+  
+  td.red {
+		color:#ff0000 !important;
+	}
+	
+	#uno tr .amount{
+		width:180px;
+	}
+	#uno tr span.amount{
+		width:70%;
+	}
+  
+  #uno td div.decimal {
+		width:100%;
+    margin-bottom:0;
+	}
+	
+	#uno td div.decimal input{
+		text-align:right;
+		width:60%;
+    margin-bottom:0;
+	}
+ 
+  #uno td.amount div.input.decimal{
+		display:inline-block;
+    width:80%;
+  }
+  #uno td.amount div.decimal input{
+		width:100%;
+  }
+	
+	#uno td div.text input{
+		width:100%;
+	}
+	
+	.totalrow td{
+		font-weight:bold;
+		background-color:#BFE4FF;
+		border-top:3px solid black;
+	}
+  .totalrow.green td{
+		background-color:#b6ff88;
+	}
+  
+	.totalcolumn {
+		background-color:#ffffad;
+	}
+
+	#uno table.grid th, #uno table.grid td{
+		border:1px solid black;
+	}
+	
+	#uno .report table th, #uno .report table td{
+		font-size:12px;
+		border:1px solid black;
+	}
+
+	.separator, .totalrow .separator {
+		background-Color:#000;
+	}
+	
+  td.bordered {
+    vertical-align:middle;
+    text-align:center;
+  }
+  
+	.totalrow td{
+		font-weight:bold;
+		background-color:#BFE4FF;
+	}
+	
+	.bordered tr th, 
+	.bordered tr td
+	{
+		font-size:0.7em;
+		border-width:1px;
+		border-style:solid;
+		border-color:#000000;
+		vertical-align:top;
+	}
+	td span.right{
+		font-size:1em;
+		display:inline-block;
+		width:65%;
+		float:right;
+		margin:0em;
+	}
+  
+  td.amount input {
+    font-size:1.1em;
+  }
